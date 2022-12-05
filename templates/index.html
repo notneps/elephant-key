@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Elephant Key</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Ffavicon_32x32.png?v=1624636943850">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div id="content">
+
+        <header>
+            <div class="header-content">                
+                <div class="logo-box">
+                    <a href="/"><img src="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Felephant_key_site_logo.png?v=1624636945667" alt="Elephant Key Logo" class="logo-img"></a>
+                </div>
+                <nav class="nav">
+                    <ul class="top-nav">
+                        <li><a href="/" class ="top-nav-link">Home</a></li>
+                        <li><a href="/beyond-passwords/" class ="top-nav-link">Beyond Passwords</a></li>
+                        <li><a href="/contact/" class ="top-nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="password-box">
+                <p class="password">{{ password }}</p>
+                <p class="password-box-desc">This strong yet easy to remember password was randomly generated when you loaded this webpage.<br><br>You can <a href="/" class="refresh-link">refresh</a> this page to generate a new one.</p>
+            </div>
+
+            <div class="home-grid">
+
+                <!-- 1 -->
+                <div class="home-headline-1-wrapper">
+                    <h2 class="home-headline-1">What</h2>
+                </div>                
+                
+                <img src="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Felephant_icon.png?v=1624636945189" alt="Elephant Icon"  class="home-img-1">
+
+                <section class="home-text-1">
+                    <p class="home-paragraph-1">Elephant Key is a password generator that generates strong but easy to remember passwords. Every time you reload this page you get a new password. Elephants are strong and never forget! We want passwords that are both strong and memorable.</p>
+                </section>
+
+                <!-- 2 -->
+                <div class="home-headline-2-wrapper">
+                    <h2 class="home-headline-2">Why</h2>
+                </div>              
+
+                <img src="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Fbrain_icon.png?v=1624636944513" alt="Brain Icon"  class="home-img-2">
+
+                <section class="home-text-2">
+                    <p class="home-paragraph-2">While in theory, the best passwords are completely random strings (e.g., “szH`"Kk63^.4R=Bzt”), the best type of strong passwords in practice are the passwords that people will actually use. I’ve found that people won’t use strong passwords if it means they have a hard time remembering them or typing them in.</p>
+                </section>
+
+                <!-- 3 -->
+
+                <div class="home-headline-3-wrapper">
+                    <h2 class="home-headline-3">How</h2>
+                </div>
+                
+                <img src="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Fterminal_icon.png?v=1624636947598" alt="Computer Icon"  class="home-img-3">
+
+                <section class="home-text-3">
+                    <p class="home-paragraph-3">When you load this page, a simple Python program randomly selects three words from a list of over 58,000 English words. Boom: strong but easy to remember password!</p>
+                </section>
+
+                <!-- 4 -->
+
+                <div class="home-headline-4-wrapper">
+                    <h2 class="home-headline-4">Do you know my password now?</h2>
+                </div>
+                
+                <img src="https://cdn.glitch.com/1bcaa78c-52d9-48a5-b257-4c04789c85d6%2Fpadlock_icon.png?v=1624636947128" alt="Password Icon" class="home-img-4">
+
+                <section class="home-text-4">
+                    <p class="home-paragraph-4">Nope, I don’t know your password. This site doesn’t keep any logs. There are no records of the passwords generated. In other words, have no idea:</p>
+                    <ul>
+                        <li>what passwords this website generated for you;</li>
+                        <li>who you are;</li>
+                        <li>where you plan on using these passwords; or</li>
+                        <li>whether you use them at all.</li>
+                    </ul>
+                </section>
+
+                <section class="home-text-4a">
+
+                    <p class="home-paragraph-4a">But you definitely shouldn’t take my word for it. You can tweak or change the passwords generated here to make them more unique and memorable to you.</p>
+                    
+                    <p class="home-paragraph-4a">You can view the server-side code that generates the passwords on this website <a href="/static/elephant_key.py">here</a>.</p>
+
+                </section>
+
+
+                <div class="home-cta-box">
+                    <p><a href="/"><strong>Refresh</strong></a> this page to generate a new password.</p>
+                </div>
+
+            </div>
+
+
+
+        </main> 
+
+        <footer>
+            <div class="footer-content">
+                <section class="footer-left">
+                    <p>Copyright © 2021 <a href="https://neps.dev" title="Nephi Malit">N.M.</a></p>
+                </section>
+                <section class="footer-right">
+                    <p>
+                        <a href="/attribution/">Attribution</a>
+                    </p>
+                </section>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
